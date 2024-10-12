@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import time
 
-# Load the trained model
+# Load the trained model (Check for push)
 model = joblib.load('car_model_compressed.joblib')
 
 # Custom CSS for styling
